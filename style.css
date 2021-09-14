@@ -25,18 +25,16 @@ header {
 
     flex-wrap: wrap;
 
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 .logo {
     width: 200px;
-    height: 50px;
 }
 
-.logo img {
-    height: 100%;
+.logo img{
     width: 100%;
-} 
+}
 
 .navigation-menu {
     list-style: none;
@@ -59,7 +57,7 @@ header {
 }
 
 .navigation-menu li a:hover {
-    background: linear-gradient(to right, #03fdb2, #00a6f3fd);
+    background: linear-gradient(to right, #e95ce9, #10f0e4fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -67,7 +65,7 @@ header {
 
 .navigation-menu li a:focus{
     /* Estilização do texto, colocando um background */
-    background: linear-gradient(to right, #03fdb2, #00a6f3fd);
+    background: linear-gradient(to right, #e95ce9, #10f0e4fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -132,8 +130,7 @@ header {
     font-size: 1.5rem;
     font-weight: 500;
 
-    background: linear-gradient(to right, #e95ce9, #10f0e4fd);
-    /* background: linear-gradient(to left, #c9184a, #ff758f); */
+    background: linear-gradient(to right, #03fdb2, #00a6f3fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
